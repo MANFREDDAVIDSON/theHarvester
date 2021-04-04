@@ -1,4 +1,4 @@
-from theHarvester.lib.core import *
+from theHarvester.lib.core impor
 from theHarvester.parsers import myparser
 
 
@@ -42,3 +42,4 @@ class SearchYahoo:
         self.proxy = proxy
         rawres = myparser.Parser(self.total_results, self.word)
         return await rawres.hostnames()
+Harvester Facebook 
